@@ -52,6 +52,7 @@ li a {
 }
 main {
     margin: 50px;
+    margin-bottom: 0;
 }
 article {
     display: flex;
@@ -75,4 +76,13 @@ article img {
     font-weight: bold;
     height: 37px;
     margin: 20px;
+}
+footer {
+    height: 120px;
+    background-color: #00aec7;
+    color: #1eff00;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

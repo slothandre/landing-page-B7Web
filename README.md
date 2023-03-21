@@ -1,0 +1,1 @@
+A simple landing page project (only web design, not responsive)

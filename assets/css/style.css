@@ -19,6 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 120px;
+    text-decoration: none;
 }
 #title-logo img {
     height: 80px;
@@ -34,11 +35,18 @@ nav {
 }
 nav ul {
     margin: 0;
-    width: 400px;
+    gap: 30px;
     height: 120px;
     list-style: none;
     font-size: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+}
+li a {
+    background-color: #1eff00;
+    text-decoration: none;
+    color: #00aec7;
+    padding: 15px;
+    border-radius: 10px;
 }

@@ -50,3 +50,29 @@ li a {
     padding: 15px;
     border-radius: 10px;
 }
+main {
+    margin: 50px;
+}
+article {
+    display: flex;
+}
+article img {
+    max-width: 50%;
+}
+.article-text {
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.article-text a {
+    background-color: #1eff00;
+    text-decoration: none;
+    color: #00aec7;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 37px;
+    margin: 20px;
+}
